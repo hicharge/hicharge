@@ -30,13 +30,13 @@ export default function Home() {
 
         <SliderCarasouel />
         <Picture />
-        <OurProducts />
+        {/* <OurProducts />
         <Benifits />
         <OurStory />
         <Specification />
         <Hichargevsothers />
         <Support />
-        <FFaq />
+        <FFaq /> */}
         {/* <OurProductss /> */}
         {/* <Applications />
         <OurProductss />
