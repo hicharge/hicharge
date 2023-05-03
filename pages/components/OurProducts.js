@@ -82,7 +82,7 @@ const OurProducts = () => {
             </div>
             <div style={{ marginTop: 51 }}>
               {' '}
-              <Grid item>
+              <Grid item xs={12}>
                 <div>
                   <div
                     style={product.productAlign}

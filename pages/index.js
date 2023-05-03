@@ -30,6 +30,7 @@ export default function Home() {
 
         <SliderCarasouel />
         <Picture />
+        <OurProducts />
         {/* <OurProducts />
         <Benifits />
         <OurStory />

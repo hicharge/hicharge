@@ -38,7 +38,7 @@ const SliderCarasouel = () => {
 export default SliderCarasouel;
 function Item(props) {
   return (
-    <Paper style={{ height: 610, backgroundColor: 'black' }}>
+    <Paper style={{ maxHeight: 610, backgroundColor: 'black' }}>
       <div style={{ position: 'absolute', zIndex: 1 }}>
         <a href={'http://www.hicharge.in'} style={{}}>
           <img
@@ -56,15 +56,15 @@ function Item(props) {
         </a>
         <Typography
           sx={{
-            fontSize: 11,
-            color: 'red',
+            fontSize: 31,
+            color: '#fff',
           }}
           style={{
             bottom: 9,
-            color: '#fff',
+
             fontFamily: 'Playfair Display',
             marginLeft: 21,
-            fontSize: 47,
+
             width: '70%',
           }}
         >
@@ -97,7 +97,7 @@ function Item(props) {
         alt="CheckButton"
       />
 
-      <Button className="CheckButton">Check it out!</Button>
+      {/* <Button className="CheckButton">Check it out!</Button> */}
     </Paper>
   );
 }
