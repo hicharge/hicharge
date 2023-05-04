@@ -109,7 +109,7 @@ const CompareSub = (props) => {
 
                 <div style={{ height: 9 }} />
                 <Typography variant="body1" color="grey">
-                  {props.description.Maintenance}
+                  {props.descriptionMaintenance}
                 </Typography>
               </li>
             </ul>

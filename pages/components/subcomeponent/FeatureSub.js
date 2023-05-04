@@ -3,16 +3,13 @@ import React from 'react';
 const FeatureSub = () => {
   return (
     <div>
-      <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
+      <div className={'col-md-4 mb-4'}>
         <img
-          style={styles.img}
           src={'http://www.qyk.energy/assets/img/benefit1.png'}
           className={'benefiticon'}
           alt="benefiticon"
         ></img>
-        <p style={styles.para9} className={'benefitheading'}>
-          UNINTERRUPTED CHARGING
-        </p>
+        <p className={'benefitheading'}>UNINTERRUPTED CHARGING</p>
         <p
           style={{
             borderBlockEndColor: 'rgb(44, 44, 45)',
