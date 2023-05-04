@@ -2169,11 +2169,11 @@ const FFaq = () => {
           </Typography>{' '}
         </Grid>
       </Grid>
-      <Container style={{ backgroundColor: '#fff' }}>
+      <Container style={{ backgroundColor: '#fff', marginLeft: 51 }}>
         <div style={{}} />
 
         <div style={{ height: 21 }} />
-        <Grid container spacing={3} justifyContent="space-around">
+        <Grid container spacing={3} justifyContent="space-between">
           <Grid item xs={12} lg={6}>
             <Faq data={data} styles={styles} config={config} />
           </Grid>
