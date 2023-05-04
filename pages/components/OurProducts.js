@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
+import { Box } from '@mui/material';
 
 const OurProducts = () => {
   return (
@@ -18,7 +19,7 @@ const OurProducts = () => {
       <div style={{ height: 21 }} />
       <div style={{ marginLeft: 30 }}>
         <Grid container>
-          <Grid item xs={12} lg={3}>
+          <Grid item xs={12} lg={4}>
             <div style={{}}>
               <Grid item>
                 <div>
@@ -28,22 +29,24 @@ const OurProducts = () => {
                   >
                     <img
                       style={product.imageIcon}
-                      src={'http://www.qyk.energy/assets/img/feature1.png'}
+                      src={
+                        'https://hicharge.in/admin/wp-content/uploads/2023/05/bulding.png'
+                      }
                       className={'featureicon'}
                       alt="feature1"
                     ></img>
                   </div>
                   <div style={product.text} className={'text'}>
                     <p style={product.colorGreen} className={'colorgreen'}>
-                      Fast Charging
+                      Quick Charging
                     </p>
                     <hr style={product.hr1} className={'greenhr'} />
                     <p
                       style={product.description}
                       className={'colorlightwhite'}
                     >
-                      Delivers powerful DC Fast charging. Supports GB/T and CCS
-                      standards{' '}
+                      EV fast charging, a feature enables electric vehicles to
+                      recharge their battery.
                     </p>
                   </div>
                 </div>
@@ -59,22 +62,24 @@ const OurProducts = () => {
                   >
                     <img
                       style={product.imageIcon}
-                      src={'http://www.qyk.energy/assets/img/feature1.png'}
+                      src={
+                        'https://hicharge.in/admin/wp-content/uploads/2023/05/fast-charge.png'
+                      }
                       className={'featureicon'}
                       alt="feature1"
                     ></img>
                   </div>
                   <div style={product.text} className={'text'}>
                     <p style={product.colorGreen} className={'colorgreen'}>
-                      Fast Charging
+                      Convenient Recharge
                     </p>
                     <hr style={product.hr1} className={'greenhr'} />
                     <p
                       style={product.description}
                       className={'colorlightwhite'}
                     >
-                      Delivers powerful DC Fast charging. Supports GB/T and CCS
-                      standards{' '}
+                      It is possible to recharge an electric vehicle using any
+                      existing power outlet.{' '}
                     </p>
                   </div>
                 </div>
@@ -90,22 +95,25 @@ const OurProducts = () => {
                   >
                     <img
                       style={product.imageIcon}
-                      src={'http://www.qyk.energy/assets/img/feature1.png'}
+                      src={
+                        'https://hicharge.in/admin/wp-content/uploads/2023/05/flexibility.png'
+                      }
                       className={'featureicon'}
                       alt="feature1"
                     ></img>
                   </div>
                   <div style={product.text} className={'text'}>
                     <p style={product.colorGreen} className={'colorgreen'}>
-                      Fast Charging
+                      Mobile
                     </p>
                     <hr style={product.hr1} className={'greenhr'} />
                     <p
                       style={product.description}
                       className={'colorlightwhite'}
                     >
-                      Delivers powerful DC Fast charging. Supports GB/T and CCS
-                      standards{' '}
+                      The EV charging station is designed to be fully mobile and
+                      mounted on wheels, making it easy to move from one
+                      location to another.{' '}
                     </p>
                   </div>
                 </div>
@@ -114,7 +122,7 @@ const OurProducts = () => {
           </Grid>
 
           {/* Secong column */}
-          <Grid item xs={12} lg={3}>
+          <Grid item xs={12} lg={4}>
             <div>
               <Grid container>
                 <div>
@@ -124,22 +132,24 @@ const OurProducts = () => {
                   >
                     <img
                       style={product.imageIcon}
-                      src={'http://www.qyk.energy/assets/img/feature1.png'}
+                      src={
+                        'https://hicharge.in/admin/wp-content/uploads/2023/05/smartphone.png'
+                      }
                       className={'featureicon'}
                       alt="feature1"
                     ></img>
                   </div>
                   <div style={product.text} className={'text'}>
                     <p style={product.colorGreen} className={'colorgreen'}>
-                      Fast Charging
+                      Software
                     </p>
                     <hr style={product.hr1} className={'greenhr'} />
                     <p
                       style={product.description}
                       className={'colorlightwhite'}
                     >
-                      Delivers powerful DC Fast charging. Supports GB/T and CCS
-                      standards{' '}
+                      The charging system features an integrated software that
+                      simplifies its operation and management{' '}
                     </p>
                   </div>
                 </div>
@@ -153,22 +163,24 @@ const OurProducts = () => {
                       >
                         <img
                           style={product.imageIcon}
-                          src={'http://www.qyk.energy/assets/img/feature1.png'}
+                          src={
+                            'https://hicharge.in/admin/wp-content/uploads/2023/05/car-battery.png'
+                          }
                           className={'featureicon'}
                           alt="feature1"
                         ></img>
                       </div>
                       <div style={product.text} className={'text'}>
                         <p style={product.colorGreen} className={'colorgreen'}>
-                          Fast Charging
+                          Battery powered
                         </p>
                         <hr style={product.hr1} className={'greenhr'} />
                         <p
                           style={product.description}
                           className={'colorlightwhite'}
                         >
-                          Delivers powerful DC Fast charging. Supports GB/T and
-                          CCS standards{' '}
+                          Efficient energy storage is achieved through the use
+                          of powerful lithium-ion batteries.
                         </p>
                       </div>
                     </div>
@@ -184,22 +196,24 @@ const OurProducts = () => {
                       >
                         <img
                           style={product.imageIcon}
-                          src={'http://www.qyk.energy/assets/img/feature1.png'}
+                          src={
+                            'https://hicharge.in/admin/wp-content/uploads/2023/05/repairing-service.png'
+                          }
                           className={'featureicon'}
                           alt="feature1"
                         ></img>
                       </div>
                       <div style={product.text} className={'text'}>
                         <p style={product.colorGreen} className={'colorgreen'}>
-                          Fast Charging
+                          Customizable{' '}
                         </p>
                         <hr style={product.hr1} className={'greenhr'} />
                         <p
                           style={product.description}
                           className={'colorlightwhite'}
                         >
-                          Delivers powerful DC Fast charging. Supports GB/T and
-                          CCS standards{' '}
+                          Select the charger (GB/T or CCS) and the appropriate
+                          core length that suits your needs.
                         </p>
                       </div>
                     </div>
@@ -210,19 +224,38 @@ const OurProducts = () => {
           </Grid>
 
           {/* Image */}
-          <Grid item xs={12} lg={6}>
-            <img
-              style={{
-                width: '251px',
-                height: 'auto',
-                marginLeft: '30%',
+          <Grid item xs={12} lg={4}>
+            <Box
+              sx={{
+                alignSelf: 'center',
+                marginLeft: '15%',
               }}
-              src={
-                'https://hicharge.in/admin/wp-content/uploads/2023/05/30kwnew-removebg-preview.png'
-              }
-              className={'featureimg'}
-              alt="My-project"
-            ></img>
+              lg={{
+                marginLeft: '10%',
+              }}
+            >
+              <img
+                sx={
+                  {
+                    // marginLeft: '50%',
+                  }
+                }
+                lg={
+                  {
+                    // marginLeft: '20%',
+                  }
+                }
+                style={{
+                  width: '251px',
+                  height: 'auto',
+                }}
+                src={
+                  'https://hicharge.in/admin/wp-content/uploads/2023/05/30kwnew-removebg-preview.png'
+                }
+                className={'featureimg'}
+                alt="My-project"
+              ></img>
+            </Box>
           </Grid>
         </Grid>
       </div>
@@ -241,6 +274,7 @@ const product = {
   },
   container: {
     margin: 9,
+    backgroundColor: 'black',
   },
   b: {
     fontFamily: 'Playfair Display',
@@ -327,7 +361,6 @@ const product = {
     fontSize: '17px',
   },
   description: {
-    blockSize: '51px',
     borderBlockEndColor: 'rgba(255, 255, 255, 0.7)',
     borderBlockStartColor: 'rgba(255, 255, 255, 0.7)',
     borderBottomColor: 'rgba(255, 255, 255, 0.7)',
@@ -418,7 +451,6 @@ const product = {
     width: '251px',
   },
   colorGreen: {
-    blockSize: '25.5px',
     borderBlockEndColor: '#ff5733',
     borderBlockStartColor: '#ff5733',
     borderBottomColor: '#ff5733',
@@ -454,7 +486,6 @@ const product = {
     width: '75%',
   },
   text: {
-    blockSize: '102.82px',
     borderBlockEndColor: 'rgb(33, 37, 41)',
     borderBlockStartColor: 'rgb(33, 37, 41)',
     borderBottomColor: 'rgb(33, 37, 41)',
@@ -488,7 +519,6 @@ const product = {
     WebkitTextStrokeColor: 'rgb(33, 37, 41)',
   },
   imageIcon: {
-    blockSize: '40px',
     borderBlockEndColor: 'rgb(33, 37, 41)',
     borderBlockStartColor: 'rgb(33, 37, 41)',
     borderBottomColor: 'rgb(33, 37, 41)',
@@ -522,7 +552,6 @@ const product = {
     height: '40px',
   },
   productAlign: {
-    blockSize: '102.82px',
     borderBlockEndColor: 'rgb(33, 37, 41)',
     borderBlockStartColor: 'rgb(33, 37, 41)',
     borderBottomColor: 'rgb(33, 37, 41)',

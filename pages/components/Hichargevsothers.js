@@ -1,9 +1,45 @@
+import { Box, Container, Grid, Paper } from '@mui/material';
 import React from 'react';
+import CompareSub from './subcomeponent/CompareSub';
 
 const Hichargevsothers = () => {
   return (
-    <div>
-      <div
+    <div style={{ backgroundColor: '#2E2E2E' }}>
+      <Container>
+        <Grid container justifyContent="space-between" alignItems="center">
+          <Grid item sx={12} lg={6}>
+            {' '}
+            <CompareSub
+              header="Traditional EV Fast Charger"
+              price="10 - 30 Lakhs"
+              description="Deploying DC Fast charging requires obtaining permits, grid
+              upgradation, installing transformers and civil works."
+            />
+          </Grid>
+          <Grid item sx={12} lg={6}>
+            {' '}
+            <CompareSub
+              header="Hicharge EV CHarger"
+              price="0"
+              description="Uses existing electrical infrastructure. Requires no grid upgrades, no permits, no civil works."
+            />
+          </Grid>
+          <Box
+
+          // sx={{
+          //   display: 'flex',
+          //   flexWrap: 'wrap',
+          //   '& > :not(style)': {
+          //     m: 1,
+          //     width: 128,
+          //     height: 128,
+          //   },
+          // }}
+          ></Box>
+        </Grid>
+      </Container>
+
+      {/* <div
         style={{
           margin: 0,
           blockSize: '1515.99px',
@@ -8968,7 +9004,7 @@ const Hichargevsothers = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

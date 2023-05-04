@@ -26,14 +26,27 @@ export default function Home() {
       </Head>
 
       <main>
-        {/* <AppHeader /> */}
-
         <SliderCarasouel />
         <Picture />
+        <Specification />
         <OurProducts />
+
+        <Support />
+        {/* <Hichargevsothers /> */}
+        {/* <Support /> */}
+        <FFaq />
+        {/* <Enquirenow /> */}
+        <FooterComponents />
+        {/* <AppHeader /> */}
+
+        {/* <SliderCarasouel />
+        <Picture />
+        <OurProducts /> */}
+        {/* <Benifits /> */}
+        {/* <Benifits /> */}
         {/* <OurProducts />
         <Benifits />
-        <OurStory />
+        // <OurStory />
         <Specification />
         <Hichargevsothers />
         <Support />

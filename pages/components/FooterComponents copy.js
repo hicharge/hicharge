@@ -1,4 +1,4 @@
-import { Box, Button, Grid, TextField, Typography } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import React from 'react';
 import { useState } from 'react';
 
@@ -7,7 +7,7 @@ const FooterComponents = () => {
   const [lg, setlg] = useState(2.3);
 
   return (
-    <div style={{ backgroundColor: '#fff' }}>
+    <div style={{ backgroundColor: '#ddd' }}>
       <Grid container>
         <Grid item xs={12} lg={3}>
           <a style={styles.a} href={'http://www.hicharge.in'}>
@@ -19,183 +19,32 @@ const FooterComponents = () => {
             ></img>
           </a>
         </Grid>
-        <Grid item xs={12} lg={2.1}>
-          <Box
-            sx={{ marginLeft: { xs: 2, sm: 2, md: 0 } }}
-            style={{
-              margin: 1,
-            }}
-          >
+        <Grid item xs={12} lg={2}>
+          <Box>
             <div style={{ marginTop: 27 }}></div>
             <h5 style={styles.contact_text}>CONTACT</h5>
             <Grid container>
-              <Grid item>
-                <img
-                  style={{
-                    color: 'rgb(33, 37, 41)',
-                    fontFamily: 'Manrope',
-                    fontSize: '16px',
-                    marginLeft: 0,
-                    marginRight: 0,
-                    width: '30px',
-                    height: '27px',
-                  }}
-                  src={'http://www.qyk.energy/assets/img/location.png'}
-                />
-              </Grid>
-
-              <Grid item>
-                <Typography
-                  color="rgb(33, 37, 41)"
-                  style={{
-                    color: 'rgb(44, 44, 45)',
-
-                    fontFamily: 'Manrope',
-                    fontSize: 16,
-                  }}
-                >
-                  Sector 18,
-                  <br />
-                  Kharghar
-                  <br />
-                  Navi Mumbai Maharashtra
-                  <br />
-                  410210
-                </Typography>
-              </Grid>
+              <Grid item>1</Grid>
+              <Grid item>2</Grid>
             </Grid>
           </Box>
         </Grid>
         <Grid item xs={12} lg={2}>
-          <Box sx={{ marginLeft: { xs: 2, sm: 2, md: 0 } }}>
+          <Box>
             <div style={{ marginTop: 27 }}></div>
-            <h5 style={styles.contact_text}>QUICK LINKS</h5>
-            <Typography sx={{ color: 'red' }} lg={{ color: 'blue' }}>
-              {/* <a
-                style={{
-                  color: 'rgb(44, 44, 45)',
-                  fontFamily: 'Manrope',
-                  fontSize: 16,
-                }}
-                href={'http://www.hicharge.in/'}
-              >
-                
-              </a> */}
-              Home
-            </Typography>
-            <p style={{}}>
-              <a
-                style={{
-                  color: 'rgb(44, 44, 45)',
-                  fontFamily: 'Manrope',
-                  fontSize: 16,
-                }}
-                href={'http://www.hicharge.in/'}
-              >
-                Applications
-              </a>
-            </p>
-            <p style={{}}>
-              <a
-                style={{
-                  color: 'rgb(44, 44, 45)',
-                  fontFamily: 'Manrope',
-                  fontSize: 16,
-                }}
-                href={'http://www.hicharge.in/'}
-              >
-                Features
-              </a>
-            </p>
-            <p style={{}}>
-              <a
-                style={{
-                  color: 'rgb(44, 44, 45)',
-                  fontFamily: 'Manrope',
-                  fontSize: 16,
-                }}
-                href={'http://www.hicharge.in/'}
-              >
-                Benefits
-              </a>
-            </p>
-            <p style={{}}>
-              <a
-                style={{
-                  color: 'rgb(44, 44, 45)',
-                  fontFamily: 'Manrope',
-                  fontSize: 16,
-                }}
-                href={'http://www.hicharge.in/'}
-              >
-                Our Story
-              </a>
-            </p>
+            <h5 style={styles.contact_text}>CONTACT</h5>
           </Box>
         </Grid>
         <Grid item xs={12} lg={2}>
-          <Box sx={{ marginLeft: { xs: 2, sm: 2, md: 0 } }}>
+          <Box>
             <div style={{ marginTop: 27 }}></div>
-            <h5 style={styles.contact_text}>OTHER LINKS</h5>
-            <p style={{}}>
-              <a
-                style={{
-                  color: 'rgb(44, 44, 45)',
-                  fontFamily: 'Manrope',
-                  fontSize: 16,
-                }}
-                href={'http://www.hicharge.in/'}
-              >
-                Contact
-              </a>
-            </p>
-            <p style={{}}>
-              <a
-                style={{
-                  color: 'rgb(44, 44, 45)',
-                  fontFamily: 'Manrope',
-                  fontSize: 16,
-                }}
-                href={'http://www.hicharge.in/'}
-              >
-                Support
-              </a>
-            </p>
-            <p style={{}}>
-              <a
-                style={{
-                  color: 'rgb(44, 44, 45)',
-                  fontFamily: 'Manrope',
-                  fontSize: 16,
-                }}
-                href={'http://www.hicharge.in/'}
-              >
-                Comparison
-              </a>
-            </p>
+            <h5 style={styles.contact_text}>CONTACT</h5>
           </Box>
         </Grid>
-        <Grid item xs={12} lg={2.9}>
-          <Box sx={{ marginLeft: { xs: 2, sm: 2, md: 0 } }}>
+        <Grid item xs={12} lg={3}>
+          <Box>
             <div style={{ marginTop: 27 }}></div>
-            <h5 style={styles.contact_text}>NEWSLETTER</h5>
-            <Grid container></Grid>
-            <TextField
-              id="standard-basic"
-              label="Email"
-              variant="standard"
-              placeholder="Email"
-              type="email"
-              style={{}}
-            />
-            <Button
-              variant="contained"
-              style={{
-                alignSelf: 'center',
-              }}
-            >
-              Send
-            </Button>
+            <h5 style={styles.contact_text}>CONTACT</h5>
           </Box>
         </Grid>
       </Grid>

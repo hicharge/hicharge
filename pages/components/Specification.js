@@ -65,7 +65,46 @@ const Specification = () => {
   return (
     <div style={{ width: '100%', backgroundColor: '#fff' }}>
       <div style={{ height: 1 }} />
-      <Typography
+      <Grid
+        container
+        direction="row"
+        style={{
+          justifyItems: 'center',
+          marginLeft: 42,
+        }}
+      >
+        <Grid item>
+          {' '}
+          <Typography
+            color="black"
+            style={{
+              color: 'green',
+              fontWeight: '700',
+              fontSize: 51,
+              alignSelf: 'center',
+              textAlign: 'center',
+            }}
+          >
+            {' '}
+            |
+          </Typography>{' '}
+        </Grid>
+        <Grid item>
+          <Typography
+            color="red"
+            style={{
+              color: 'rgb(33, 37, 41)',
+              fontFamily: 'Playfair Display',
+              fontSize: '28px',
+              marginTop: 21,
+              marginLeft: 21,
+            }}
+          >
+            Specification
+          </Typography>{' '}
+        </Grid>
+      </Grid>
+      {/* <Typography
         style={{
           color: 'rgb(33, 37, 41)',
           fontFamily: 'Playfair Display',
@@ -76,7 +115,7 @@ const Specification = () => {
         }}
       >
         Specifications
-      </Typography>
+      </Typography> */}
 
       {/* <Link
         target="_blank"
@@ -257,6 +296,21 @@ const Specification = () => {
             </CardContent>
           </Card>
         </Grid>
+      </Grid>
+      <div style={{ height: 21 }} />
+      <Grid
+        container
+        spacing={0}
+        direction="row"
+        alignItems="center"
+        justifyContent="center"
+      >
+        <Link
+          target="_blank"
+          href="https://hicharge.in/admin/wp-content/uploads/2023/05/Brochure-X3-30kW-DC-CCS-2.pdf"
+        >
+          <Button variant="contained">Download Brochure</Button>
+        </Link>
       </Grid>
       <div style={{ height: 51 }} />
     </div>
