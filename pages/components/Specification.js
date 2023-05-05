@@ -23,6 +23,8 @@ const styles = {
     fontSize: '20px',
     verticalAlign: 'center',
     color: '#ff5733',
+    fontWeight: 'bold',
+    marginTop: 9,
   },
   tablecell: {
     fontWeight: '700',
@@ -132,82 +134,81 @@ const Specification = () => {
         style={{}}
       >
         <Grid item xs={3}>
-          <Card
-            sx={{ minWidth: 275 }}
-            style={{
-              backgroundColor: '#fff',
-              width: '90vw',
-              marginTop: 21,
-            }}
-          >
-            <CardContent>
-              <Grid container justifyContent="space-between">
-                <Grid item>
-                  <Typography
-                    style={styles.AcCharger}
-                    sx={{
-                      fontSize: 21,
-                      fontWeight: 'bold',
-                      color: 'grey',
-                      marginTop: 1.2,
-                    }}
-                  >
-                    Hicharge AC Charger
-                  </Typography>
-                </Grid>
-                <Button onClick={_open}>
+          <Paper>
+            <Card
+              sx={{ minWidth: 275 }}
+              style={{
+                backgroundColor: '#f8f9fa',
+                width: '90vw',
+                marginTop: 21,
+              }}
+            >
+              <CardContent>
+                <Grid container justifyContent="space-between">
                   <Grid item>
-                    <Typography sx={styles.sxPlus}>+</Typography>
+                    <Typography style={styles.AcCharger} sx={{}}>
+                      Hicharge AC Charger
+                    </Typography>
                   </Grid>
-                </Button>
-              </Grid>
+                  <Button onClick={_open}>
+                    <Grid item>
+                      <Typography sx={styles.sxPlus}>+</Typography>
+                    </Grid>
+                  </Button>
+                </Grid>
 
-              {open ? (
-                <>
-                  <TableContainer component={Paper} style={{ width: '100vw' }}>
-                    <Table sx={{}} aria-label="simple table">
-                      <TableHead>
-                        <TableRow
-                          style={{
-                            backgroundColor: 'green',
-                            width: '100vw',
-                          }}
-                        >
-                          <TableCell style={styles.tablecell} width={21}>
-                            Sr No
-                          </TableCell>
-                          <TableCell width={221} style={styles.tablecell}>
-                            General{' '}
-                          </TableCell>
-                          <TableCell style={styles.tablecell}>
-                            Specification&nbsp;
-                          </TableCell>
-                        </TableRow>
-                      </TableHead>
-                      <TableBody>
-                        {rows.map((row) => (
+                {open ? (
+                  <>
+                    <TableContainer
+                      component={Paper}
+                      style={{ width: '100vw' }}
+                    >
+                      <Table sx={{}} aria-label="simple table">
+                        <TableHead>
                           <TableRow
-                            key={row.name}
-                            sx={{
-                              '&:last-child td, &:last-child th': { border: 0 },
+                            style={{
+                              backgroundColor: 'green',
+                              width: '100vw',
                             }}
                           >
-                            <TableCell component="th" scope="row">
-                              {row.name}
+                            <TableCell style={styles.tablecell} width={21}>
+                              Sr No
                             </TableCell>
-                            <TableCell>{row.calories}</TableCell>
-                            <TableCell>{row.fat}</TableCell>
-                            <TableCell>{row.carbs}</TableCell>
-                            <TableCell>{row.protein}</TableCell>
+                            <TableCell width={221} style={styles.tablecell}>
+                              General{' '}
+                            </TableCell>
+                            <TableCell style={styles.tablecell}>
+                              Specification&nbsp;
+                            </TableCell>
                           </TableRow>
-                        ))}
-                      </TableBody>
-                    </Table>
-                  </TableContainer>
-                </>
-              ) : null}
-            </CardContent>
-          </Card>
+                        </TableHead>
+                        <TableBody>
+                          {rows.map((row) => (
+                            <TableRow
+                              key={row.name}
+                              sx={{
+                                '&:last-child td, &:last-child th': {
+                                  border: 0,
+                                },
+                              }}
+                            >
+                              <TableCell component="th" scope="row">
+                                {row.name}
+                              </TableCell>
+                              <TableCell>{row.calories}</TableCell>
+                              <TableCell>{row.fat}</TableCell>
+                              <TableCell>{row.carbs}</TableCell>
+                              <TableCell>{row.protein}</TableCell>
+                            </TableRow>
+                          ))}
+                        </TableBody>
+                      </Table>
+                    </TableContainer>
+                  </>
+                ) : null}
+              </CardContent>
+            </Card>
+          </Paper>
         </Grid>
       </Grid>
       <Grid
@@ -222,7 +223,7 @@ const Specification = () => {
           <Card
             sx={{ minWidth: 275 }}
             style={{
-              backgroundColor: '#fff',
+              backgroundColor: '#f8f9fa',
               width: '90vw',
               marginTop: 21,
             }}
@@ -309,7 +310,15 @@ const Specification = () => {
           target="_blank"
           href="https://hicharge.in/admin/wp-content/uploads/2023/05/Brochure-X3-30kW-DC-CCS-2.pdf"
         >
-          <Button variant="contained">Download Brochure</Button>
+          <Button
+            size="81px"
+            style={{
+              backgroundColor: '669900ff',
+            }}
+            variant="contained"
+          >
+            Download Brochure
+          </Button>
         </Link>
       </Grid>
       <div style={{ height: 51 }} />

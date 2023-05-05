@@ -1,9 +1,11 @@
-import { Grid, Typography, Container } from '@mui/material';
+import { Grid, Typography, Container, Divider } from '@mui/material';
 import React from 'react';
 
 const Support = () => {
   return (
-    <div style={{ backgroundColor: '#fff' }}>
+    <div style={{ backgroundColor: '#212529' }}>
+      <div style={{ height: '21px' }} />
+      <Divider />
       <Grid
         container
         direction="row"
@@ -30,9 +32,8 @@ const Support = () => {
         </Grid>
         <Grid item>
           <Typography
-            color="red"
             style={{
-              color: 'rgb(33, 37, 41)',
+              color: '#fff',
               fontFamily: 'Playfair Display',
               fontSize: '28px',
               marginTop: 21,
@@ -58,8 +59,7 @@ const Support = () => {
                     },
                   }}
                   style={{
-                    color: 'grey',
-                    color: 'rgb(33, 37, 41)',
+                    color: '#fff',
                     columnRuleColor: 'rgb(33, 37, 41)',
                     fontFamily: 'Playfair Display',
                     fontSize: '21px',
@@ -77,8 +77,7 @@ const Support = () => {
                     marginRight: { xs: 9, sm: 2, md: 0 },
                   }}
                   style={{
-                    color: 'grey',
-                    color: 'rgb(33, 37, 41)',
+                    color: '#fff',
                     columnRuleColor: 'rgb(33, 37, 41)',
                     fontFamily: 'Playfair Display',
                     fontSize: '21px',
@@ -93,12 +92,14 @@ const Support = () => {
           </Grid>
           <Grid item sx={12} lg={3}>
             <img
+              alt="cars"
               className="responsive"
               src="https://images.pexels.com/photos/14825005/pexels-photo-14825005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             />
           </Grid>
         </Grid>
       </Container>
+      <div style={{ height: '21px' }} />
     </div>
     // <div style={{ backgroundColor: 'red' }}>
     //   <Grid container>

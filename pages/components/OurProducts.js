@@ -1,263 +1,299 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 const OurProducts = () => {
   return (
     <div style={product.container}>
-      <h5 style={product.product}>Our Product</h5>
-      <div style={product.divH} className={'vl'}>
-        <h3
-          style={{
-            color: '#fff',
-          }}
-        >
-          <b style={product.b}>Features</b>
-        </h3>
-      </div>
       <div style={{ height: 21 }} />
       <div style={{ marginLeft: 30 }}>
-        <Grid container>
-          <Grid item xs={12} lg={4}>
-            <div style={{}}>
-              <Grid item>
-                <div>
-                  <div
-                    style={product.productAlign}
-                    className={'align hidden-xs-down'}
-                  >
-                    <img
-                      style={product.imageIcon}
-                      src={
-                        'https://hicharge.in/admin/wp-content/uploads/2023/05/bulding.png'
-                      }
-                      className={'featureicon'}
-                      alt="feature1"
-                    ></img>
-                  </div>
-                  <div style={product.text} className={'text'}>
-                    <p style={product.colorGreen} className={'colorgreen'}>
-                      Quick Charging
-                    </p>
-                    <hr style={product.hr1} className={'greenhr'} />
-                    <p
-                      style={product.description}
-                      className={'colorlightwhite'}
-                    >
-                      EV fast charging, a feature enables electric vehicles to
-                      recharge their battery.
-                    </p>
-                  </div>
-                </div>
-              </Grid>
-            </div>
-            <div style={{ marginTop: 51 }}>
-              {' '}
-              <Grid item>
-                <div>
-                  <div
-                    style={product.productAlign}
-                    className={'align hidden-xs-down'}
-                  >
-                    <img
-                      style={product.imageIcon}
-                      src={
-                        'https://hicharge.in/admin/wp-content/uploads/2023/05/fast-charge.png'
-                      }
-                      className={'featureicon'}
-                      alt="feature1"
-                    ></img>
-                  </div>
-                  <div style={product.text} className={'text'}>
-                    <p style={product.colorGreen} className={'colorgreen'}>
-                      Convenient Recharge
-                    </p>
-                    <hr style={product.hr1} className={'greenhr'} />
-                    <p
-                      style={product.description}
-                      className={'colorlightwhite'}
-                    >
-                      It is possible to recharge an electric vehicle using any
-                      existing power outlet.{' '}
-                    </p>
-                  </div>
-                </div>
-              </Grid>
-            </div>
-            <div style={{ marginTop: 51 }}>
-              {' '}
-              <Grid item xs={12}>
-                <div>
-                  <div
-                    style={product.productAlign}
-                    className={'align hidden-xs-down'}
-                  >
-                    <img
-                      style={product.imageIcon}
-                      src={
-                        'https://hicharge.in/admin/wp-content/uploads/2023/05/flexibility.png'
-                      }
-                      className={'featureicon'}
-                      alt="feature1"
-                    ></img>
-                  </div>
-                  <div style={product.text} className={'text'}>
-                    <p style={product.colorGreen} className={'colorgreen'}>
-                      Mobile
-                    </p>
-                    <hr style={product.hr1} className={'greenhr'} />
-                    <p
-                      style={product.description}
-                      className={'colorlightwhite'}
-                    >
-                      The EV charging station is designed to be fully mobile and
-                      mounted on wheels, making it easy to move from one
-                      location to another.{' '}
-                    </p>
-                  </div>
-                </div>
-              </Grid>
-            </div>
-          </Grid>
-
-          {/* Secong column */}
-          <Grid item xs={12} lg={4}>
-            <div>
-              <Grid container>
-                <div>
-                  <div
-                    style={product.productAlign}
-                    className={'align hidden-xs-down'}
-                  >
-                    <img
-                      style={product.imageIcon}
-                      src={
-                        'https://hicharge.in/admin/wp-content/uploads/2023/05/smartphone.png'
-                      }
-                      className={'featureicon'}
-                      alt="feature1"
-                    ></img>
-                  </div>
-                  <div style={product.text} className={'text'}>
-                    <p style={product.colorGreen} className={'colorgreen'}>
-                      Software
-                    </p>
-                    <hr style={product.hr1} className={'greenhr'} />
-                    <p
-                      style={product.description}
-                      className={'colorlightwhite'}
-                    >
-                      The charging system features an integrated software that
-                      simplifies its operation and management{' '}
-                    </p>
-                  </div>
-                </div>
-                <div style={{ marginTop: 51 }}>
-                  {' '}
-                  <Grid item>
-                    <div>
-                      <div
-                        style={product.productAlign}
-                        className={'align hidden-xs-down'}
-                      >
-                        <img
-                          style={product.imageIcon}
-                          src={
-                            'https://hicharge.in/admin/wp-content/uploads/2023/05/car-battery.png'
-                          }
-                          className={'featureicon'}
-                          alt="feature1"
-                        ></img>
-                      </div>
-                      <div style={product.text} className={'text'}>
-                        <p style={product.colorGreen} className={'colorgreen'}>
-                          Battery powered
-                        </p>
-                        <hr style={product.hr1} className={'greenhr'} />
-                        <p
-                          style={product.description}
-                          className={'colorlightwhite'}
-                        >
-                          Efficient energy storage is achieved through the use
-                          of powerful lithium-ion batteries.
-                        </p>
-                      </div>
-                    </div>
-                  </Grid>
-                </div>
-                <div style={{ marginTop: 51 }}>
-                  {' '}
-                  <Grid item>
-                    <div>
-                      <div
-                        style={product.productAlign}
-                        className={'align hidden-xs-down'}
-                      >
-                        <img
-                          style={product.imageIcon}
-                          src={
-                            'https://hicharge.in/admin/wp-content/uploads/2023/05/repairing-service.png'
-                          }
-                          className={'featureicon'}
-                          alt="feature1"
-                        ></img>
-                      </div>
-                      <div style={product.text} className={'text'}>
-                        <p style={product.colorGreen} className={'colorgreen'}>
-                          Customizable{' '}
-                        </p>
-                        <hr style={product.hr1} className={'greenhr'} />
-                        <p
-                          style={product.description}
-                          className={'colorlightwhite'}
-                        >
-                          Select the charger (GB/T or CCS) and the appropriate
-                          core length that suits your needs.
-                        </p>
-                      </div>
-                    </div>
-                  </Grid>
-                </div>
-              </Grid>
-            </div>
-          </Grid>
-
-          {/* Image */}
-          <Grid item xs={12} lg={4}>
-            <Box
-              sx={{
+        <Grid
+          container
+          direction="row"
+          style={{
+            justifyItems: 'center',
+            marginLeft: 42,
+          }}
+        >
+          <Grid item>
+            {' '}
+            <Typography
+              color="black"
+              style={{
+                color: '#ff5733ff',
+                fontWeight: '700',
+                fontSize: 51,
                 alignSelf: 'center',
-                marginLeft: '15%',
-              }}
-              lg={{
-                marginLeft: '10%',
+                textAlign: 'center',
               }}
             >
-              <img
-                sx={
-                  {
-                    // marginLeft: '50%',
-                  }
-                }
-                lg={
-                  {
-                    // marginLeft: '20%',
-                  }
-                }
-                style={{
-                  width: '251px',
-                  height: 'auto',
-                }}
-                src={
-                  'https://hicharge.in/admin/wp-content/uploads/2023/05/30kwnew-removebg-preview.png'
-                }
-                className={'featureimg'}
-                alt="My-project"
-              ></img>
-            </Box>
+              {' '}
+              |
+            </Typography>{' '}
+          </Grid>
+          <Grid item>
+            <Typography
+              style={{
+                color: '#fff',
+                fontFamily: 'Playfair Display',
+                fontSize: '28px',
+                marginTop: 21,
+                marginLeft: 21,
+              }}
+            >
+              Features
+            </Typography>{' '}
           </Grid>
         </Grid>
+        <Container style={{ marginLeft: 21 }}>
+          <Grid container>
+            <Grid item xs={12} lg={4}>
+              <div style={{}}>
+                <Grid item>
+                  <div>
+                    <div
+                      style={product.productAlign}
+                      className={'align hidden-xs-down'}
+                    >
+                      <img
+                        style={product.imageIcon}
+                        src={
+                          'https://hicharge.in/admin/wp-content/uploads/2023/05/bulding.png'
+                        }
+                        className={'featureicon'}
+                        alt="feature1"
+                      ></img>
+                    </div>
+                    <div style={product.text} className={'text'}>
+                      <p style={product.colorGreen} className={'colorgreen'}>
+                        Quick Charging
+                      </p>
+                      <hr style={product.hr1} className={'greenhr'} />
+                      <p
+                        style={product.description}
+                        className={'colorlightwhite'}
+                      >
+                        EV fast charging, a feature enables electric vehicles to
+                        recharge their battery.
+                      </p>
+                    </div>
+                  </div>
+                </Grid>
+              </div>
+              <div style={{ marginTop: 51 }}>
+                {' '}
+                <Grid item>
+                  <div>
+                    <div
+                      style={product.productAlign}
+                      className={'align hidden-xs-down'}
+                    >
+                      <img
+                        style={product.imageIcon}
+                        src={
+                          'https://hicharge.in/admin/wp-content/uploads/2023/05/fast-charge.png'
+                        }
+                        className={'featureicon'}
+                        alt="feature1"
+                      ></img>
+                    </div>
+                    <div style={product.text} className={'text'}>
+                      <p style={product.colorGreen} className={'colorgreen'}>
+                        Convenient Recharge
+                      </p>
+                      <hr style={product.hr1} className={'greenhr'} />
+                      <p
+                        style={product.description}
+                        className={'colorlightwhite'}
+                      >
+                        It is possible to recharge an electric vehicle using any
+                        existing power outlet.{' '}
+                      </p>
+                    </div>
+                  </div>
+                </Grid>
+              </div>
+              <div style={{ marginTop: 51 }}>
+                {' '}
+                <Grid item xs={12}>
+                  <div>
+                    <div
+                      style={product.productAlign}
+                      className={'align hidden-xs-down'}
+                    >
+                      <img
+                        style={product.imageIcon}
+                        src={
+                          'https://hicharge.in/admin/wp-content/uploads/2023/05/flexibility.png'
+                        }
+                        className={'featureicon'}
+                        alt="feature1"
+                      ></img>
+                    </div>
+                    <div style={product.text} className={'text'}>
+                      <p style={product.colorGreen} className={'colorgreen'}>
+                        Mobile
+                      </p>
+                      <hr style={product.hr1} className={'greenhr'} />
+                      <p
+                        style={product.description}
+                        className={'colorlightwhite'}
+                      >
+                        The EV charging station is designed to be fully mobile
+                        and mounted on wheels, making it easy to move from one
+                        location to another.{' '}
+                      </p>
+                    </div>
+                  </div>
+                </Grid>
+              </div>
+            </Grid>
+
+            {/* Secong column */}
+            <Grid item xs={12} lg={4}>
+              <div>
+                <Grid container>
+                  <div>
+                    <div
+                      style={product.productAlign}
+                      className={'align hidden-xs-down'}
+                    >
+                      <img
+                        style={product.imageIcon}
+                        src={
+                          'https://hicharge.in/admin/wp-content/uploads/2023/05/smartphone.png'
+                        }
+                        className={'featureicon'}
+                        alt="feature1"
+                      ></img>
+                    </div>
+                    <div style={product.text} className={'text'}>
+                      <p style={product.colorGreen} className={'colorgreen'}>
+                        Software
+                      </p>
+                      <hr style={product.hr1} className={'greenhr'} />
+                      <p
+                        style={product.description}
+                        className={'colorlightwhite'}
+                      >
+                        The charging system features an integrated software that
+                        simplifies its operation and management{' '}
+                      </p>
+                    </div>
+                  </div>
+                  <div style={{ marginTop: 51 }}>
+                    {' '}
+                    <Grid item>
+                      <div>
+                        <div
+                          style={product.productAlign}
+                          className={'align hidden-xs-down'}
+                        >
+                          <img
+                            style={product.imageIcon}
+                            src={
+                              'https://hicharge.in/admin/wp-content/uploads/2023/05/car-battery.png'
+                            }
+                            className={'featureicon'}
+                            alt="feature1"
+                          ></img>
+                        </div>
+                        <div style={product.text} className={'text'}>
+                          <p
+                            style={product.colorGreen}
+                            className={'colorgreen'}
+                          >
+                            Battery powered
+                          </p>
+                          <hr style={product.hr1} className={'greenhr'} />
+                          <p
+                            style={product.description}
+                            className={'colorlightwhite'}
+                          >
+                            Efficient energy storage is achieved through the use
+                            of powerful lithium-ion batteries.
+                          </p>
+                        </div>
+                      </div>
+                    </Grid>
+                  </div>
+                  <div style={{ marginTop: 51 }}>
+                    {' '}
+                    <Grid item>
+                      <div>
+                        <div
+                          style={product.productAlign}
+                          className={'align hidden-xs-down'}
+                        >
+                          <img
+                            style={product.imageIcon}
+                            src={
+                              'https://hicharge.in/admin/wp-content/uploads/2023/05/repairing-service.png'
+                            }
+                            className={'featureicon'}
+                            alt="feature1"
+                          ></img>
+                        </div>
+                        <div style={product.text} className={'text'}>
+                          <p
+                            style={product.colorGreen}
+                            className={'colorgreen'}
+                          >
+                            Customizable{' '}
+                          </p>
+                          <hr style={product.hr1} className={'greenhr'} />
+                          <p
+                            style={product.description}
+                            className={'colorlightwhite'}
+                          >
+                            Select the charger (GB/T or CCS) and the appropriate
+                            core length that suits your needs.
+                          </p>
+                        </div>
+                      </div>
+                    </Grid>
+                  </div>
+                </Grid>
+              </div>
+            </Grid>
+
+            {/* Image */}
+            <Grid item xs={12} lg={4}>
+              <Box
+                sx={{
+                  alignSelf: 'center',
+                  marginLeft: '15%',
+                }}
+                lg={{
+                  marginLeft: '10%',
+                }}
+              >
+                <img
+                  sx={
+                    {
+                      // marginLeft: '50%',
+                    }
+                  }
+                  lg={
+                    {
+                      // marginLeft: '20%',
+                    }
+                  }
+                  style={{
+                    width: '251px',
+                    height: 'auto',
+                  }}
+                  src={
+                    'https://hicharge.in/admin/wp-content/uploads/2023/05/30kwnew-removebg-preview.png'
+                  }
+                  className={'featureimg'}
+                  alt="My-project"
+                ></img>
+              </Box>
+            </Grid>
+          </Grid>
+        </Container>
       </div>
     </div>
   );
@@ -273,8 +309,7 @@ const product = {
     marginLeft: 12,
   },
   container: {
-    margin: 9,
-    backgroundColor: 'black',
+    backgroundColor: '#212529',
   },
   b: {
     fontFamily: 'Playfair Display',
@@ -289,9 +324,7 @@ const product = {
     borderRightColor: 'rgb(33, 37, 41)',
     borderTopColor: 'rgb(33, 37, 41)',
     boxSizing: 'border-box',
-
     color: 'rgb(33, 37, 41)',
-
     fontFamily: 'Manrope',
     fontSize: '16px',
     marginLeft: 12,
@@ -451,39 +484,17 @@ const product = {
     width: '251px',
   },
   colorGreen: {
-    borderBlockEndColor: '#ff5733',
-    borderBlockStartColor: '#ff5733',
-    borderBottomColor: '#ff5733',
-    borderInlineEndColor: '#ff5733',
-    borderInlineStartColor: '#ff5733',
-    borderLeftColor: '#ff5733',
-    borderRightColor: '#ff5733',
-    borderTopColor: '#ff5733',
-    boxSizing: 'border-box',
-    caretColor: '#ff5733',
-    color: '#ff5733',
+    caretColor: '#669900ff',
+    color: '#669900ff',
     columnRuleColor: '#ff5733',
     fontFamily: 'Manrope',
     fontSize: '17px',
-    inlineSize: '277.688px',
-    lineHeight: '25.5px',
-    listStyleType: 'none',
-    marginBlockEnd: '0px',
-    marginBlockStart: '0px',
-    marginBottom: '0px',
-    marginLeft: 0,
-    marginRight: 0,
-    marginTop: '0px',
-    outlineColor: '#ff5733',
-    textAlign: 'left',
-    textDecoration: 'none solid #ff5733',
-    textDecorationColor: '#ff5733',
-    textEmphasisColor: '#ff5733',
-    textSizeAdjust: '100%',
-    WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
-    WebkitTextFillColor: '#ff5733',
+
+    WebkitTapHighlightColor: '#669900ff',
+    WebkitTextFillColor: '#ff5733ff',
     WebkitTextStrokeColor: '#ff5733',
     width: '75%',
+    fontWeight: 'bold',
   },
   text: {
     borderBlockEndColor: 'rgb(33, 37, 41)',

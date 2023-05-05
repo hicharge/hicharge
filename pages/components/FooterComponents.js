@@ -12,6 +12,7 @@ const FooterComponents = () => {
         <Grid item xs={12} lg={3}>
           <a style={styles.a} href={'http://www.hicharge.in'}>
             <img
+              alt="logi"
               style={styles.logo}
               src={
                 'https://hicharge.in/admin/wp-content/uploads/2023/03/final-hi-charze.png'
@@ -31,6 +32,7 @@ const FooterComponents = () => {
             <Grid container>
               <Grid item>
                 <img
+                  alt="location"
                   style={{
                     color: 'rgb(33, 37, 41)',
                     fontFamily: 'Manrope',

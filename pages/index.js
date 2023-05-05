@@ -30,6 +30,7 @@ export default function Home() {
         <Picture />
         <Specification />
         <OurProducts />
+        <Benifits />
 
         <Support />
         {/* <Hichargevsothers /> */}
@@ -79,3 +80,7 @@ export default function Home() {
     </div>
   );
 }
+// export const constantVariable = {
+//   primaryColor: '#ff5733ff',
+//   primaryColorGreen: '#669900ff',
+// };

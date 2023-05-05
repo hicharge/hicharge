@@ -2088,27 +2088,98 @@ const data = {
   // title: 'FAQ (How it works)',
   rows: [
     {
-      title: 'Can I rent Hicharge?',
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-            ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-            In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-            Fusce sed commodo purus, at tempus turpis.`,
+      title: 'What is an EV charging station?',
+      content: (
+        <p>
+          An EV charging station is a device that supplies electric energy to
+          recharge electric vehicles (EVs). There are several types of EV
+          charging stations available, including Level 1, Level 2, and Level 3
+          (DC fast charging) stations.
+        </p>
+      ),
     },
     {
-      title: 'Nunc maximus, magna at ultricies elementum',
-      content:
-        'Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.',
+      title: 'What are the different types of EV charging stations?',
+      content: (
+        <p>
+          Level 1 charging stations use a standard 120-volt outlet and provide
+          the slowest charging speed. Level 2 charging stations require a
+          240-volt circuit and offer faster charging than Level 1. Level 3
+          charging stations (also known as DC fast charging) use direct current
+          and can charge a vehicle much faster than Level 1 or 2 stations.
+        </p>
+      ),
     },
     {
-      title: 'Curabitur laoreet, mauris vel blandit fringilla',
-      content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-          Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-          Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-          Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+      title: 'How long does it take to charge an electric vehicle?',
+      content: (
+        <p>
+          The time it takes to charge an electric vehicle depends on several
+          factors, including the type of EV, the size of the battery, and the
+          charging station used. Level 1 charging can take up to 20 hours, Level
+          2 can take anywhere from 3-8 hours, and Level 3 (DC fast charging) can
+          take as little as 20-30 minutes for an 80% charge.
+        </p>
+      ),
     },
     {
-      title: 'What is the package version',
-      content: <p>current version is 1.2.1</p>,
+      title: 'How do I find an EV charging station?',
+      content: (
+        <p>
+          here are several ways to find EV charging stations, including using an
+          app like PlugShare or ChargePoint, checking the website of your EV
+          manufacturer, or contacting your local utility company for information
+          on charging stations in your area.
+        </p>
+      ),
+    },
+  ],
+};
+const data1 = {
+  // title: 'FAQ (How it works)',
+  rows: [
+    {
+      title: 'Can I install an EV charging station at my home?',
+      content: (
+        <p>
+          Yes, you can install an EV charging station at your home. However,
+          it&apos;s important to hire a licensed electrician to ensure the
+          installation is safe and meets local building codes.
+        </p>
+      ),
+    },
+    {
+      title: 'Can I charge my EV at any charging station?',
+      content: (
+        <p>
+          Not all charging stations are compatible with all EVs. It&apos;s
+          important to check the specifications of your EV to ensure it&apos;s
+          compatible with the charging station you plan to use.
+        </p>
+      ),
+    },
+    {
+      title: 'How many charging stations do I need for my business?',
+      content: (
+        <p>
+          The number of charging stations you need for your business depends on
+          several factors, including the size of your parking lot, the number of
+          EVs in your area, and the charging needs of your customers. A
+          professional EV charging station installer can help you determine the
+          optimal number of charging stations for your business
+        </p>
+      ),
+    },
+    {
+      title: 'Can I make money by selling electricity to EV drivers?',
+      content: (
+        <p>
+          Yes, you can make money by selling electricity to EV drivers. Many
+          businesses offer charging as a paid service or offer it for free to
+          attract customers. Some EV charging stations also have the capability
+          to track and bill customers for the electricity they use.
+        </p>
+      ),
     },
   ],
 };
@@ -2178,7 +2249,7 @@ const FFaq = () => {
             <Faq data={data} styles={styles} config={config} />
           </Grid>
           <Grid item xs={12} lg={6}>
-            <Faq data={data} styles={styles} config={config} />
+            <Faq data={data1} styles={styles} config={config} />
           </Grid>
         </Grid>
       </Container>

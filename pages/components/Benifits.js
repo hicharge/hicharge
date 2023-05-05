@@ -108,33 +108,6 @@ const styles = {
     height: '162.391px',
   },
   img: {
-    borderBlockEndColor: 'rgb(33, 37, 41)',
-    borderBlockStartColor: 'rgb(33, 37, 41)',
-    borderBottomColor: 'rgb(33, 37, 41)',
-    borderInlineEndColor: 'rgb(33, 37, 41)',
-    borderInlineStartColor: 'rgb(33, 37, 41)',
-    borderLeftColor: 'rgb(33, 37, 41)',
-    borderRightColor: 'rgb(33, 37, 41)',
-    borderTopColor: 'rgb(33, 37, 41)',
-    boxSizing: 'border-box',
-    caretColor: 'rgb(33, 37, 41)',
-    color: 'rgb(33, 37, 41)',
-    columnRuleColor: 'rgb(33, 37, 41)',
-    fontFamily: 'Manrope',
-    fontSize: '16px',
-    inlineSize: '40px',
-    lineHeight: '24px',
-    marginLeft: 0,
-    marginRight: 0,
-    outlineColor: 'rgb(33, 37, 41)',
-    textDecoration: 'none solid rgb(33, 37, 41)',
-    textDecorationColor: 'rgb(33, 37, 41)',
-    textEmphasisColor: 'rgb(33, 37, 41)',
-    textSizeAdjust: '100%',
-    verticalAlign: 'middle',
-    WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
-    WebkitTextFillColor: 'rgb(33, 37, 41)',
-    WebkitTextStrokeColor: 'rgb(33, 37, 41)',
     width: '40px',
     height: '40px',
   },
@@ -206,23 +179,10 @@ const styles = {
     width: '80%',
   },
   para9: {
-    borderBlockEndColor: '#ff5733',
-    borderBlockStartColor: '#ff5733',
-    borderBottomColor: '#ff5733',
-    borderInlineEndColor: '#ff5733',
-    borderInlineStartColor: '#ff5733',
-    borderLeftColor: '#ff5733',
-    borderRightColor: '#ff5733',
-    borderTopColor: '#ff5733',
-    boxSizing: 'border-box',
-    caretColor: '#ff5733',
     color: '#ff5733',
-    columnRuleColor: '#ff5733',
     fontFamily: 'Manrope',
     fontSize: '17px',
     fontWeight: 600,
-    inlineSize: '336.461px',
-    lineHeight: '25.5px',
     marginBlockEnd: '8px',
     marginBlockStart: '8px',
     marginBottom: '8px',
@@ -230,9 +190,6 @@ const styles = {
     marginRight: 0,
     marginTop: '8px',
     outlineColor: '#ff5733',
-    textDecoration: 'none solid #ff5733',
-    textDecorationColor: '#ff5733',
-    textEmphasisColor: '#ff5733',
     textSizeAdjust: '100%',
     textTransform: 'uppercase',
     WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
@@ -240,154 +197,62 @@ const styles = {
     WebkitTextStrokeColor: '#ff5733',
     width: '80%',
   },
-  colMd4: {
-    borderBlockEndColor: 'rgb(33, 37, 41)',
-    borderBlockStartColor: 'rgb(33, 37, 41)',
-    borderBottomColor: 'rgb(33, 37, 41)',
-    borderInlineEndColor: 'rgb(33, 37, 41)',
-    borderInlineStartColor: 'rgb(33, 37, 41)',
-    borderLeftColor: 'rgb(33, 37, 41)',
-    borderRightColor: 'rgb(33, 37, 41)',
-    borderTopColor: 'rgb(33, 37, 41)',
-    boxSizing: 'border-box',
-    caretColor: 'rgb(33, 37, 41)',
-    color: 'rgb(33, 37, 41)',
-    columnRuleColor: 'rgb(33, 37, 41)',
-    flexShrink: 0,
-    fontFamily: 'Manrope',
-    fontSize: '16px',
-    inlineSize: '444.578px',
-    lineHeight: '24px',
-    marginBlockEnd: '24px',
-    marginBottom: '1.5rem !important',
-    marginLeft: 0,
-    marginRight: 0,
-    maxInlineSize: '100%',
-    maxWidth: '100%',
-    minBlockSize: 'auto',
-    minHeight: 'auto',
-    minInlineSize: 'auto',
-    minWidth: 'auto',
-    outlineColor: 'rgb(33, 37, 41)',
-    paddingInlineEnd: '12px',
-    paddingInlineStart: '12px',
-    paddingLeft: '12px',
-    paddingRight: '12px',
-    textDecoration: 'none solid rgb(33, 37, 41)',
-    textDecorationColor: 'rgb(33, 37, 41)',
-    textEmphasisColor: 'rgb(33, 37, 41)',
-    textSizeAdjust: '100%',
-    WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
-    WebkitTextFillColor: 'rgb(33, 37, 41)',
-    WebkitTextStrokeColor: 'rgb(33, 37, 41)',
-    width: '444.578px',
-    height: '174px',
-  },
-  description: {
-    borderBlockEndColor: 'rgb(44, 44, 45)',
-    borderBlockStartColor: 'rgb(44, 44, 45)',
-    borderBottomColor: 'rgb(44, 44, 45)',
-    borderInlineEndColor: 'rgb(44, 44, 45)',
-    borderInlineStartColor: 'rgb(44, 44, 45)',
-    borderLeftColor: 'rgb(44, 44, 45)',
-    borderRightColor: 'rgb(44, 44, 45)',
-    borderTopColor: 'rgb(44, 44, 45)',
-    boxSizing: 'border-box',
-    caretColor: 'rgb(44, 44, 45)',
-    color: 'rgb(44, 44, 45)',
-    columnRuleColor: 'rgb(44, 44, 45)',
-    fontFamily: 'Manrope',
-    fontSize: '17px',
-    inlineSize: '336.461px',
-    lineHeight: '25.5px',
-    marginBlockStart: '0px',
-    marginBottom: '1rem',
-    marginLeft: 0,
-    marginRight: 0,
-    marginTop: '0px',
-    outlineColor: 'rgb(44, 44, 45)',
-    textDecoration: 'none solid rgb(44, 44, 45)',
-    textDecorationColor: 'rgb(44, 44, 45)',
-    textEmphasisColor: 'rgb(44, 44, 45)',
-    textSizeAdjust: '100%',
-    WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
-    WebkitTextFillColor: 'rgb(44, 44, 45)',
-    WebkitTextStrokeColor: 'rgb(44, 44, 45)',
-    width: '80%',
-  },
-  colmd4ml4: {
-    borderBlockEndColor: 'rgb(33, 37, 41)',
-    borderBlockStartColor: 'rgb(33, 37, 41)',
-    borderBottomColor: 'rgb(33, 37, 41)',
-    borderInlineEndColor: 'rgb(33, 37, 41)',
-    borderInlineStartColor: 'rgb(33, 37, 41)',
-    borderLeftColor: 'rgb(33, 37, 41)',
-    borderRightColor: 'rgb(33, 37, 41)',
-    borderTopColor: 'rgb(33, 37, 41)',
-    boxSizing: 'border-box',
-    caretColor: 'rgb(33, 37, 41)',
-    color: 'rgb(33, 37, 41)',
-    columnRuleColor: 'rgb(33, 37, 41)',
-    flexShrink: 0,
-    fontFamily: 'Manrope',
-    fontSize: '16px',
-    inlineSize: '444.578px',
-    lineHeight: '24px',
-    marginBlockEnd: '24px',
-    marginBottom: '1.5rem !important',
-    marginLeft: 0,
-    marginRight: 0,
-    maxInlineSize: '100%',
-    maxWidth: '100%',
-    minBlockSize: 'auto',
-    minHeight: 'auto',
-    minInlineSize: 'auto',
-    minWidth: 'auto',
-    outlineColor: 'rgb(33, 37, 41)',
-    paddingInlineEnd: '12px',
-    paddingInlineStart: '12px',
-    paddingLeft: '12px',
-    paddingRight: '12px',
-    textDecoration: 'none solid rgb(33, 37, 41)',
-    textDecorationColor: 'rgb(33, 37, 41)',
-    textEmphasisColor: 'rgb(33, 37, 41)',
-    textSizeAdjust: '100%',
-    WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
-    WebkitTextFillColor: 'rgb(33, 37, 41)',
-    WebkitTextStrokeColor: 'rgb(33, 37, 41)',
-    width: '444.578px',
-    height: '199.5px',
-  },
+
+  description: {},
+  colmd4ml4: {},
 };
 
 const Benifits = () => {
   return (
-    <Box style={{ backgroundColor: '#fff', marginBottom: 21 }}>
-      <Grid container>
-        <Grid item sx={12} lg={8}>
+    <div style={{ backgroundColor: '#fff' }}>
+      <Grid
+        container
+        direction="row"
+        style={{
+          justifyItems: 'center',
+          marginLeft: 42,
+        }}
+      >
+        <Grid item>
+          {' '}
           <Typography
-            sx={{
-              typography: { lg: 'h3', xs: 'h5' },
-            }}
-            lg={{}}
             color="black"
-            fontFamily="Playfair Display"
-            mt={3}
-            ml={3}
+            style={{
+              color: 'green',
+              fontWeight: '700',
+              fontSize: 51,
+              alignSelf: 'center',
+              textAlign: 'center',
+            }}
+          >
+            {' '}
+            |
+          </Typography>{' '}
+        </Grid>
+        <Grid item>
+          <Typography
+            style={{
+              color: '#212529',
+              fontFamily: 'Playfair Display',
+              fontSize: '28px',
+              marginTop: 21,
+              marginLeft: 21,
+              fontWeight: 'bold',
+            }}
           >
             Benefits
-          </Typography>
+          </Typography>{' '}
         </Grid>
       </Grid>
       <Container
         disableGutters
         backgroundColor="#fff"
         maxWidth={false}
-        style={{ margin: 21 }}
+        style={{ marginLeft: 51 }}
       >
         <Grid container direction="row">
-          <Grid item xs={12} md={4}>
-            <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
+          <Grid item xs={12} md={4} lg={4}>
+            <div style={styles.colmd4ml4}>
               <img
                 style={styles.img}
                 src={'http://www.qyk.energy/assets/img/benefit1.png'}
@@ -395,51 +260,36 @@ const Benifits = () => {
                 alt="benefiticon"
               ></img>
               <p style={styles.para9} className={'benefitheading'}>
-                Infrastructure light
+                Access to Convenient Charging
               </p>
-              <p
+              <Typography
                 style={{
-                  borderBlockEndColor: 'rgb(44, 44, 45)',
-                  borderBlockStartColor: 'rgb(44, 44, 45)',
-                  borderBottomColor: 'rgb(44, 44, 45)',
-                  borderInlineEndColor: 'rgb(44, 44, 45)',
-                  borderInlineStartColor: 'rgb(44, 44, 45)',
-                  borderLeftColor: 'rgb(44, 44, 45)',
-                  borderRightColor: 'rgb(44, 44, 45)',
-                  borderTopColor: 'rgb(44, 44, 45)',
-                  boxSizing: 'border-box',
-                  caretColor: 'rgb(44, 44, 45)',
                   color: 'rgb(44, 44, 45)',
-                  columnRuleColor: 'rgb(44, 44, 45)',
                   fontFamily: 'Manrope',
                   fontSize: '17px',
-                  inlineSize: '336.461px',
-                  lineHeight: '25.5px',
-                  marginBlockStart: '0px',
-                  marginBottom: '1rem',
-                  marginLeft: 0,
-                  marginRight: 0,
+                }}
+              >
+                With an EV charging station at home or at your business, you can
+                charge your electric vehicle conveniently, without the need to
+                drive to a public charging station.
+              </Typography>
+              {/* <p
+                style={{
+                  color: 'rgb(44, 44, 45)',
+                  fontFamily: 'Manrope',
+                  fontSize: '17px',
                   marginTop: '0px',
-                  outlineColor: 'rgb(44, 44, 45)',
-                  textDecoration: 'none solid rgb(44, 44, 45)',
-                  textDecorationColor: 'rgb(44, 44, 45)',
-                  textEmphasisColor: 'rgb(44, 44, 45)',
-                  textSizeAdjust: '100%',
-                  WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
-                  WebkitTextFillColor: 'rgb(44, 44, 45)',
-                  WebkitTextStrokeColor: 'rgb(44, 44, 45)',
                   width: '80%',
-                  height: '102px',
                 }}
               >
                 The charging system can be installed without costly and
                 time-consuming infrastructure upgrades, permits, or civil works.
                 It can seamlessly integrate with existing electrical
                 infrastructure.
-              </p>
+              </p> */}
             </div>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} lg={4}>
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
@@ -493,7 +343,7 @@ const Benifits = () => {
               </p>
             </div>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} lg={4}>
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
@@ -547,7 +397,7 @@ const Benifits = () => {
               </p>
             </div>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} lg={4}>
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
@@ -601,7 +451,7 @@ const Benifits = () => {
               </p>
             </div>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} lg={4}>
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
@@ -655,7 +505,7 @@ const Benifits = () => {
               </p>
             </div>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} lg={4}>
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
@@ -709,8 +559,8 @@ const Benifits = () => {
               </p>
             </div>
           </Grid>
-          <Grid item xs={12} md={4}>
-            <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
+          <Grid item xs={12} md={4} lg={4}>
+            <div style={styles.colmd4ml4}>
               <img
                 style={styles.img}
                 src={'http://www.qyk.energy/assets/img/benefit1.png'}
@@ -765,7 +615,7 @@ const Benifits = () => {
           </Grid>
         </Grid>
       </Container>
-    </Box>
+    </div>
 
     // <div style={{ backgroundColor: '#fff' }}>
     //   <div
