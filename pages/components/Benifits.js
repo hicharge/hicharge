@@ -255,7 +255,9 @@ const Benifits = () => {
             <div style={styles.colmd4ml4}>
               <img
                 style={styles.img}
-                src={'http://www.qyk.energy/assets/img/benefit1.png'}
+                src={
+                  'https://hicharge.in/admin/wp-content/uploads/2023/05/battery-charge.png'
+                }
                 className={'benefiticon'}
                 alt="benefiticon"
               ></img>
@@ -273,32 +275,20 @@ const Benifits = () => {
                 charge your electric vehicle conveniently, without the need to
                 drive to a public charging station.
               </Typography>
-              {/* <p
-                style={{
-                  color: 'rgb(44, 44, 45)',
-                  fontFamily: 'Manrope',
-                  fontSize: '17px',
-                  marginTop: '0px',
-                  width: '80%',
-                }}
-              >
-                The charging system can be installed without costly and
-                time-consuming infrastructure upgrades, permits, or civil works.
-                It can seamlessly integrate with existing electrical
-                infrastructure.
-              </p> */}
             </div>
           </Grid>
           <Grid item xs={12} md={4} lg={4}>
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
-                src={'http://www.qyk.energy/assets/img/benefit1.png'}
+                src={
+                  'https://hicharge.in/admin/wp-content/uploads/2023/05/save-money.png'
+                }
                 className={'benefiticon'}
                 alt="benefiticon"
               ></img>
               <p style={styles.para9} className={'benefitheading'}>
-                HIGH ENERGY SAVINGS
+                Cost Savings
               </p>
               <p
                 style={{
@@ -335,11 +325,10 @@ const Benifits = () => {
                   height: '102px',
                 }}
               >
-                The charging system does not incur high demand charges,
-                penalties, or peak-time charges. This is because of the energy
-                buffering technology that allows energy to be stored during
-                cheaper periods and used when needed, thereby reducing overall
-                energy costs.
+                Charging an electric vehicle is generally less expensive than
+                filling up a gasoline-powered vehicle. Installing an EV charging
+                station can help you save money on fuel costs and reduce your
+                overall transportation expenses.
               </p>
             </div>
           </Grid>
@@ -347,12 +336,14 @@ const Benifits = () => {
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
-                src={'http://www.qyk.energy/assets/img/benefit1.png'}
+                src={
+                  'https://hicharge.in/admin/wp-content/uploads/2023/05/growth.png'
+                }
                 className={'benefiticon'}
                 alt="benefiticon"
               ></img>
               <p style={styles.para9} className={'benefitheading'}>
-                UNINTERRUPTED CHARGING
+                Revenue Generation
               </p>
               <p
                 style={{
@@ -389,11 +380,11 @@ const Benifits = () => {
                   height: '102px',
                 }}
               >
-                The EV charging system is designed to deliver reliable and
-                uninterrupted charging services, even during power outages or at
-                sites with an erratic power supply. This ensures that electric
-                vehicles can be charged consistently without any downtime or
-                interruptions.
+                If you install an EV charging station at your business, you can
+                potentially generate revenue by charging customers for the use
+                of your charging station. This can also attract customers to
+                your business who are looking for a place to charge their
+                electric vehicle
               </p>
             </div>
           </Grid>
@@ -401,12 +392,14 @@ const Benifits = () => {
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
-                src={'http://www.qyk.energy/assets/img/benefit1.png'}
+                src={
+                  'https://hicharge.in/admin/wp-content/uploads/2023/05/environmental-protection.png'
+                }
                 className={'benefiticon'}
                 alt="benefiticon"
               ></img>
               <p style={styles.para9} className={'benefitheading'}>
-                UNINTERRUPTED CHARGING
+                Environmental Benefits:
               </p>
               <p
                 style={{
@@ -443,11 +436,11 @@ const Benifits = () => {
                   height: '102px',
                 }}
               >
-                The EV charging system is designed to deliver reliable and
-                uninterrupted charging services, even during power outages or at
-                sites with an erratic power supply. This ensures that electric
-                vehicles can be charged consistently without any downtime or
-                interruptions.
+                Electric vehicles produce fewer emissions than gasoline-powered
+                vehicles, helping to reduce air pollution and greenhouse gas
+                emissions. By charging your EV with renewable energy sources,
+                such as solar or wind power, you can further reduce your carbon
+                footprint.
               </p>
             </div>
           </Grid>
@@ -455,7 +448,9 @@ const Benifits = () => {
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
-                src={'http://www.qyk.energy/assets/img/benefit1.png'}
+                src={
+                  'https://hicharge.in/admin/wp-content/uploads/2023/05/battery.png'
+                }
                 className={'benefiticon'}
                 alt="benefiticon"
               ></img>
@@ -509,12 +504,14 @@ const Benifits = () => {
             <div style={styles.colmd4ml4} className={'col-md-4 mb-4'}>
               <img
                 style={styles.img}
-                src={'http://www.qyk.energy/assets/img/benefit1.png'}
+                src={
+                  'https://hicharge.in/admin/wp-content/uploads/2023/05/house.png '
+                }
                 className={'benefiticon'}
                 alt="benefiticon"
               ></img>
               <p style={styles.para9} className={'benefitheading'}>
-                UNINTERRUPTED CHARGING
+                Increased Property Value
               </p>
               <p
                 style={{
@@ -551,11 +548,10 @@ const Benifits = () => {
                   height: '102px',
                 }}
               >
-                The EV charging system is designed to deliver reliable and
-                uninterrupted charging services, even during power outages or at
-                sites with an erratic power supply. This ensures that electric
-                vehicles can be charged consistently without any downtime or
-                interruptions.
+                Installing an EV charging station at your home or business can
+                increase the value of your property, as it is becoming more
+                desirable to own an electric vehicle and have access to
+                convenient charging.
               </p>
             </div>
           </Grid>
@@ -563,12 +559,14 @@ const Benifits = () => {
             <div style={styles.colmd4ml4}>
               <img
                 style={styles.img}
-                src={'http://www.qyk.energy/assets/img/benefit1.png'}
+                src={
+                  'https://hicharge.in/admin/wp-content/uploads/2023/05/handshake.png'
+                }
                 className={'benefiticon'}
                 alt="benefiticon"
               ></img>
               <p style={styles.para9} className={'benefitheading'}>
-                UNINTERRUPTED CHARGING
+                Public Relations
               </p>
               <p
                 style={{
@@ -605,11 +603,9 @@ const Benifits = () => {
                   height: '102px',
                 }}
               >
-                The EV charging system is designed to deliver reliable and
-                uninterrupted charging services, even during power outages or at
-                sites with an erratic power supply. This ensures that electric
-                vehicles can be charged consistently without any downtime or
-                interruptions.
+                If you own a business, providing EV charging stations can help
+                enhance your public image and demonstrate your commitment to
+                sustainability and environmental responsibility.
               </p>
             </div>
           </Grid>
