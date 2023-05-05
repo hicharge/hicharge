@@ -313,7 +313,7 @@ const Specification = () => {
           <Button
             size="81px"
             style={{
-              backgroundColor: '669900ff',
+              backgroundColor: '#669900ff',
             }}
             variant="contained"
           >
